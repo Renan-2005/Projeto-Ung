@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clinica Beautiful Skin</title>
+    <link rel="shortcut icon" href="../iconelogo.png" type="image/x-icon">
+    <link rel="stylesheet" href="Css/forms.css">
+    
+    
+</head>
+
+<body class="corpo2">
+
+
+
+    <section class="caixa__pai">
+
+
+        <header class="titulo__forms">Tela de Agendamento</header>
+        
+        <form action="#" class="formulario" id="agendamentoForm">
+
+
+                <div class="input__caixas">
+                    <label for="">Nome Completo</label>
+                    <input type="text" placeholder="Digite seu nome completo" required> 
+                </div>
+
+
+                <div class="input__caixas">
+                    <label for="">Telefone</label>
+                    <input type="tel" placeholder="xx-xxxxx-xxxx" required> 
+                </div>
+
+
+                <div class="input__caixas">
+
+                    <label for="">Selecione o Serviço</label>
+
+                    <div class="seleçao__caixa">
+
+                        <select name="" id="">
+                            <option value="">Tratamentos Faciais</option>
+                            <option value="">Massagens</option>
+                            <option value="">Salão de Beleza</option>
+                            <option value="">Manicure e Pedicure</option>
+                            <option value="">Cirurgia Facial</option>
+                        </select>
+
+                    </div>
+
+                </div>
+               
+
+
+                <div class="coluna">
+
+                    <div class="input__caixas">
+                        <label for="">Qual a Data Desejada</label>
+                        <input type="date" required>
+                    </div>
+
+                    <div class="input__caixas">
+                        <label for="">Qual o Horário Desejado</label>
+                        <input type="time" required>
+                    </div>
+
+                </div>
+
+                
+               <button type="submit">Enviar Agendamento</button>
+              
+
+            </form>
+
+            <div class="mensagem__obrigado" id="mensagemObrigado" style="display: none;">
+                <h2>Obrigado pelo seu agendamento!</h2>
+                <p>Em breve entraremos em contato para confirmar os detalhes.</p>
+            </div>
+
+    </section>
+
+
+
+    <script src="Js/forms.js"></script>
+    
+    
+</body>
+</html>

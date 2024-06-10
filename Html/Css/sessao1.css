@@ -1,0 +1,259 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    border: none;
+    font-family: "Poppins", sans-serif;
+
+}
+ 
+
+
+
+body {
+
+    overflow-x: hidden;
+}
+
+
+.sessao__um {
+
+    max-width: 1920px;
+    max-height: 1080px;
+    background-color: #342F54;
+
+  
+
+}
+
+
+
+.cabeçalho {
+
+    max-width: 1720px;
+    max-height: 85px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+}
+
+
+
+.logotipo {
+
+
+    padding-left: 97px;
+}
+
+
+
+.menu {
+
+    padding: 0;
+    margin: 0;
+    display: flex;
+    margin-left: 185px;
+    width: 490px;
+}
+
+
+
+.menu__item {
+
+    margin-right: 20px;
+    color: rgb(240, 248, 255);
+    font-weight: 300;
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+}
+
+
+.menu__item:hover {
+
+    margin-right: 20px;
+    color: #EEC6CA;
+    font-weight: 300;
+
+}
+
+
+
+
+
+.botoes__cta {
+
+    padding-left: 100px;
+}
+
+
+
+.botao__consulta {
+
+    width: 200px;
+    height: 49px;
+    border-radius: 25px;
+    background: #EEC6CA;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 400ms ease-in-out;
+}
+
+.botao__consulta:hover{
+
+    filter: drop-shadow(0px 0px 10px rgb(255, 207, 212));
+    transform: scale(1.1);
+}
+
+
+svg {
+
+    margin-right: 80px;
+    cursor: pointer;
+
+}
+
+
+.conteudo__chamativo {
+
+    width: 1720px;
+    height: 695px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.texto__chamativo {
+
+    width: 913px;
+    height: 380px;
+    margin-left: 90px;
+
+}
+
+
+
+.texto__principal {
+
+
+    color: aliceblue;
+    width: 813px;
+    height: 225px;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+
+.texto__secundario {
+
+    color: aliceblue;
+    width: 600px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: -20px;
+
+}
+
+
+
+.texto__rosa {
+
+
+    font-weight: 700;
+    color: #EEC6CA;
+}
+
+
+
+.botoes {
+    margin-top: 40px;
+    
+}
+
+
+
+.botao__reserve {
+
+
+    width: 200px;
+    height: 49px;
+    border-radius: 25px;
+    background: #EEC6CA;
+    color: #2C2C2C;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-right: 16px;
+    cursor: pointer;
+    transition: all 400ms ease-in-out;
+
+}
+.botao__reserve:hover {
+
+    transform: scale(1.1);
+    filter: drop-shadow(0px 0px 10px rgb(255, 207, 212));
+
+}
+
+
+
+.botao__descubra {
+
+    width: 200px;
+    height: 49px;
+    border-radius: 25px;
+    border: 2px solid #EEC6CA;
+    background: transparent;
+    color: #EEC6CA;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    transition: all 400ms ease-in-out;
+    cursor: pointer;
+    
+
+}
+
+.botao__descubra:hover {
+
+    
+    background: #EEC6CA;
+    color: #151515;
+   
+
+}
+
+
+.doutora {
+
+
+    margin-right: 300px;
+    margin-top: 100px;
+
+}
+
+
+.sessao__dois {
+
+    max-width: 1920px;
+    height: 884px;
+    background-color: #EEC6CA;
+
+
+}

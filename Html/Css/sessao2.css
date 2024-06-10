@@ -1,0 +1,139 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    border: none;
+    font-family: "Poppins", sans-serif;
+
+}
+
+::selection {
+    background-color: #2E1F27; /* Cor de fundo da seleção */
+    color: #ffffff; /* Cor do texto selecionado */
+}
+
+
+
+body {
+
+    overflow-x: hidden;
+}
+
+
+.sessao__dois {
+
+    max-width: 1920px;
+    max-height: 700px;
+    background-color: #EEC6CA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+
+
+}
+
+
+.conteudo__chamativo__dois {
+
+    max-width: 1250px;
+    height: 472px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+
+}
+
+
+
+.img__um {
+
+    width: 161px;
+    height: 268px;
+    border-radius: 150px;
+    border: 3px solid #2E1F27;
+    object-fit: cover;
+    object-position: 60% 30%;
+    margin-top: 185px;
+
+
+
+}
+
+.img__dois {
+
+
+    width: 275px;
+    height: 458px;
+    border-radius: 150px;
+    border: 3px solid #2E1F27;
+    object-fit: cover;
+    object-position: 70% 30%;
+    margin-right: 20px;
+}
+
+.sobre__nos {
+
+    width: 100px;
+    height: 25px;
+    color: #2E1F27;
+    font-weight: 400;
+    font-size: 20px;
+    margin-left: 1px;
+    border-bottom: 3px solid #2E1F27;
+   
+}
+
+.texto__chamativo__dois {
+
+    margin-left: 100px;
+}
+
+.texto__principal2 {
+
+    width: 645px;
+    color: #2E1F27;
+    font-size: 40px;
+    font-weight: 400;
+    margin-top: 20px;
+
+}
+
+.texto__secundario__dois {
+
+    width: 476px;
+    color: #2c2c2cb3;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 20px;
+
+}
+
+.botao__lermais {
+
+    width: 177px;
+    height: 49px;
+    border-radius: 25px;
+    background: #2E1F27;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 25px;
+    transition: all 400ms ease-in-out;
+    cursor: pointer;
+
+
+}
+.botao__lermais:hover {
+
+    transform: scale(1.1);
+    
+}

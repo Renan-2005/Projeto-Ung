@@ -1,0 +1,143 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Poppins", sans-serif;
+}
+
+
+.corpo2 {
+    background-color: #EEC6CA;
+    overflow-x: hidden;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.caixa__pai {
+    position: relative;
+    max-width: 700px;
+    width: 100%;
+    padding: 25px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 10px 15px 15px #00000015;
+    opacity: 0;
+    transform: translateY(-50px) rotate(-10deg);
+    animation: advancedFadeIn 1s forwards ease-in-out;
+}
+
+@keyframes advancedFadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-50px) rotate(-10deg);
+    }
+    50% {
+        opacity: 0.5;
+        transform: translateY(10px) rotate(5deg);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0) rotate(0);
+    }
+}
+
+.titulo__forms {
+    font-size: 1.5rem;
+    color: #342F54;
+    font-weight: 500;
+    text-align: center;
+}
+
+.formulario .caixa__pai {
+    margin-top: 30px;
+}
+
+.coluna {
+    display: flex;
+    column-gap: 15px;
+}
+
+.input__caixas {
+    width: 100%;
+    margin-top: 20px;
+}
+
+::placeholder {
+    color: #342F54;
+}
+
+label {
+    color: #342F54;
+    font-weight: 400;
+}
+
+:where(input, .seleçao__caixa) {
+    position: relative;
+    height: 50px;
+    width: 100%;
+    outline: none;
+    border: 1px solid #342F54;
+    border-radius: 12px;
+    padding: 0 15px;
+    margin-top: 8px;
+    font-size: 1rem;
+    color: #342F54;
+}
+
+select {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border: none;
+    color: #342F54;
+    font-size: 1rem;
+}
+
+button[type="submit"] {
+    height: 55px;
+    width: 100%;
+    background-color: #EEC6CA;
+    border-radius: 12px;
+    border: none;
+    margin-top: 30px;
+    font-weight: 600;
+    color: #342F54;
+    transition: all 400ms ease-in-out;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #342F54;
+    color: #EEC6CA;
+}
+
+
+.mensagem__obrigado {
+    text-align: center;
+    margin-top: 20px;
+    color: #342F54;
+}
+
+.mensagem__obrigado h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.mensagem__obrigado p {
+    font-size: 1.2rem;
+}
+
+
+@media screen and (max-width: 500px) {
+    .coluna {
+        flex-wrap: wrap;
+    }
+}
